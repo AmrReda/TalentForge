@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2248C20A-2756-4F68-977E-33C77C021804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{482D4824-3E78-4928-BE92-936AB99F7D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Application", "src\TalentForge.Application\TalentForge.Application.csproj", "{9DD37537-3A40-49C6-9244-E52C8DCC2B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Domain", "src\TalentForge.Domain\TalentForge.Domain.csproj", "{310895A0-5418-46CF-8B97-10826FCECEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Infrastructure", "src\TalentForge.Infrastructure\TalentForge.Infrastructure.csproj", "{2FFFA4FA-78BF-43B1-B372-DCD1C3F4EC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.API", "src\TalentForge.API\TalentForge.API.csproj", "{65E1DAE1-E008-4247-9B63-17E6243C3EB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DD37537-3A40-49C6-9244-E52C8DCC2B77} = {2248C20A-2756-4F68-977E-33C77C021804}
+		{310895A0-5418-46CF-8B97-10826FCECEC3} = {2248C20A-2756-4F68-977E-33C77C021804}
+		{2FFFA4FA-78BF-43B1-B372-DCD1C3F4EC09} = {2248C20A-2756-4F68-977E-33C77C021804}
+		{65E1DAE1-E008-4247-9B63-17E6243C3EB0} = {2248C20A-2756-4F68-977E-33C77C021804}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD37537-3A40-49C6-9244-E52C8DCC2B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD37537-3A40-49C6-9244-E52C8DCC2B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD37537-3A40-49C6-9244-E52C8DCC2B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD37537-3A40-49C6-9244-E52C8DCC2B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310895A0-5418-46CF-8B97-10826FCECEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310895A0-5418-46CF-8B97-10826FCECEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310895A0-5418-46CF-8B97-10826FCECEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310895A0-5418-46CF-8B97-10826FCECEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFFA4FA-78BF-43B1-B372-DCD1C3F4EC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFFA4FA-78BF-43B1-B372-DCD1C3F4EC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFFA4FA-78BF-43B1-B372-DCD1C3F4EC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFFA4FA-78BF-43B1-B372-DCD1C3F4EC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E1DAE1-E008-4247-9B63-17E6243C3EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E1DAE1-E008-4247-9B63-17E6243C3EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E1DAE1-E008-4247-9B63-17E6243C3EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E1DAE1-E008-4247-9B63-17E6243C3EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
